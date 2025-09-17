@@ -32,8 +32,6 @@ int main()
             stamina -= difference;
             stamina += a[i];
 
- //           position = i - 1;
-
             position = i;
         }
 

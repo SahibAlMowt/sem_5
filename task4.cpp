@@ -28,5 +28,6 @@ int main()
     }
 
     std::cout << yurec << "\n";
+    
     return 0;
 }
