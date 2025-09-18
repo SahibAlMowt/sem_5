@@ -29,7 +29,7 @@ int main()
     long long int left = 2;
     long long int right = n - 1;
 
-    while (right - left > 3) 
+    while(right - left > 3) 
     {  
         long long int mid = (left + right) / 2;
 
@@ -47,7 +47,7 @@ int main()
     long long int x_1 = left;
     long long int best_value = function(left);
 
-    for (long long int x = left + 1; x != right; x++) 
+    for(long long int x = left + 1; x <= right; x++) 
     {
         long long int value = function(x);
 
