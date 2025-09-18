@@ -10,7 +10,7 @@ int main()
 
     long long int yurec = 0;
 
-    for (long long int h = 1; h <= m; h++) 
+    for(long long int h = 1; h <= m; h++) 
     {
         long long int t = (m * n - k + 1) / h;
 
@@ -21,7 +21,7 @@ int main()
 
         long long int piece = t * h;
 
-        if (piece > yurec)
+        if(piece > yurec)
         {
             yurec = piece;
         } 
