@@ -90,7 +90,7 @@ bool linear_function(farray &array, int n, int size)
 
 int main() 
 {
-    std::fstream fin("input.txt", std::ios::in);
+    std::fstream fin("in.txt", std::ios::in);
 
     int n;
 
@@ -112,7 +112,7 @@ int main()
 
     fin.close();
 
-    std::fstream fout("output.txt", std::ios::out);
+    std::fstream fout("out.txt", std::ios::out);
 
     if(!get_bit(array, 0))
     { 
