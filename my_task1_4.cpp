@@ -51,7 +51,7 @@ bool monotonic_function(const farray &array, int n, int size)
                 
             if(i != j && get_bit(array, i) && !get_bit(array, j))
             {
-                 return false;
+                return false;
             }             
         }
     }
@@ -91,6 +91,10 @@ bool linear_function(farray &array, int n, int size)
 int main() 
 {
     std::fstream fin("input.txt", std::ios::in);
+
+    char num;
+
+    fin >> num;
 
     int n;
 
